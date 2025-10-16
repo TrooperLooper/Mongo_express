@@ -72,29 +72,29 @@ Through this project, I gained hands-on experience with:
 
 ### MongoDB Database Setup
 
-![MongoDB Compass showing database and collection](path/to/compass-screenshot.png)
+![MongoDB Compass showing database and collection](4.png)
 _MongoDB Compass showing the `myfirstdatabase` with `items` collection and sample grocery data_
 
 ### API Testing - CRUD Operations
 
 #### GET Request - Fetch All Items
 
-![GET request showing all items](path/to/get-request.png)
+![GET request showing all items](0.png)
 _GET request to `/items` endpoint showing all grocery items in the database_
 
 #### POST Request - Create New Item
 
-![POST request creating new item](path/to/post-request.png)
+![POST request creating new item](1.png)
 _POST request to `/items` endpoint creating a new "Oranges" item_
 
 #### PUT Request - Update Item
 
-![PUT request updating item](path/to/put-request.png)
+![PUT request updating item](2.png)
 _PUT request to `/items/:id` endpoint updating Apples quantity to 30_
 
 #### DELETE Request - Remove Item
 
-![DELETE request removing item](path/to/delete-request.png)
+![DELETE request removing item](3.png)
 _DELETE request to `/items/:id` endpoint successfully removing an item_
 
 ---

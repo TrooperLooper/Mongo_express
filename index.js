@@ -8,6 +8,8 @@ mongoose.connect("mongodb://localhost:27017/myfirstdatabase", {});
 
 const itemSchema = new mongoose.Schema({
   name: String,
+  category: String,
+  price: Number,
   quantity: Number,
 });
 
@@ -43,13 +45,6 @@ app.delete("/items/:id", async (req, res) => {
     return res.status(404).json({ message: "Item not found" });
   }
   res.json({ message: "Item deleted successfully" });
-});
-
-// Add this temporary route to see all items with their IDs
-app.get("/debug", async (req, res) => {
-  const items = await Item.find();
-  console.log("All items:", items);
-  res.json(items);
 });
 
 app.listen(3000, () => {
